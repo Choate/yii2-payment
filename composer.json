@@ -1,0 +1,22 @@
+{
+    "name": "choate/yii2-payment",
+    "type": "library",
+    "description": "Yii2 Payment",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "php": ">=7.0.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Choate",
+            "email": "choate.yao@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "choate\\yii2\\payment\\": "src"
+        }
+    }
+}
